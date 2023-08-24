@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/Home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="vh-100 d-flex justify-content-center align-items-center"
+      style="
+        background-color: rgba(0, 0, 0, 0.308);
+        background-blend-mode: darken;
+        background-size: cover;
+        background-image: url(menu1.jpg);
+      "
+    >
+      <div
+        class="rounded-2 p-3"
+        style="
+          border: 1px solid black;
+          height: 270px;
+          width: 300px;
+          background: transparent;
+          background-color: rgba(0, 0, 0, 0.664);
+          background-blend-mode: darken;
+        "
+      >
+        <label for="" style="color: white">Username</label>
+        <input
+          type="text"
+          class="w-100 mt-1 mb-2 rounded-1 py-2 ps-2"
+          placeholder="Enter your username"
+          style="border: none; outline: none"
+        />
+        <label for="" style="color: white">Password</label>
+        <input
+          type="password"
+          class="w-100 my-1 rounded-1 py-2 ps-2"
+          placeholder="Enter your password"
+          style="border: none; outline: none"
+        />
+        <button class="w-100 py-2 my-2 rounded-1 btn btn-primary btn-sm">
+          Get Started
+        </button>
+        <div class="d-flex gap-2">
+          <button class="w-50 py-1 rounded-1 btn btn-danger btn-sm">
+            Register
+          </button>
+          <button class="w-50 py-1 rounded-1 btn btn-danger btn-sm">
+            Forgot Password
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
